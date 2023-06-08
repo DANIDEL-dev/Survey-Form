@@ -10,7 +10,7 @@
       <div class="container">
       <header>
     <h1 id="title">  Survey Form</h1>
-    <h3 id="description">Thank you for taking the time to help us improve the platform</h3>
+    <h3 >Thank you for taking the time to help us improve the platform</h3>
       </header>
 <form id="survey-form" class="container1" >
 <fieldset class="input-group">
@@ -23,10 +23,8 @@
     <label id="number-label" class="user-details">
     Age <input type="number" id="number" required placeholder="age" min="14" max="30">
     </label>
-  </fieldset>
-  
- <p> Which option best describes your curent role? </p>
-  <fieldset class="input-group">
+ <fieldset class="input-group">
+     <p id="description"> Which option best describes your curent role? </p>
 <select id="dropdown" class="input-dropdown">
 <option> Select current role </option>
 <option id="student">Student </option>
@@ -35,9 +33,9 @@
 <option> Prefer not to say </option>
 <option> Other </option>
     </select>
-</fieldset class="input-group">
-  <p> Would you recommend Meta to a friend? </p>
+</fieldset> 
   <fieldset>
+     <p> Would you recommend Meta to a friend? </p>
   <label id="Definitely" class="input-radio"> <input type="radio" name="choice"value="Definitely"  > Definitely </label>
     
   <label id="Maybe" class="input-radio"> <input type="radio" name="choice" value="Maybe" > Maybe </label>
@@ -76,7 +74,7 @@
   <textarea class="comments" placeholder="Enter your comment here..." ></textarea>
 </fieldset>
 <fieldset>
-  <button type="button" class="submit-button" type="submit" id="submit">Submit </button>
+  <input  class="submit-button" type="submit" id="submit"> 
   </fieldset>
   </form>
     <footer>
