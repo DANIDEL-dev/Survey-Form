@@ -14,8 +14,8 @@
       </header>
 <form id="survey-form" class="container1" >
 <fieldset class="input-group">
-  <label id="name-label" class="user-details">
-    Name <input type="text" id="name" placeholder="Enter your name" required >
+  <label id="name-label" >
+    Name <input  type="text" id="name" placeholder="Enter your name" required >
     </label>
     <label id="email-label" class="user-details">
     Email <input type="email" id="email" required placeholder="Enter your Email">
@@ -27,7 +27,7 @@
   
  <p> Which option best describes your curent role? </p>
   <fieldset class="input-group">
-<select id="dropdown">
+<select id="dropdown" class="input-dropdown">
 <option> Select current role </option>
 <option id="student">Student </option>
 <option>Full Time Job </option>
@@ -70,8 +70,9 @@
                             <label class="checkbox"><input type="checkbox" value="Aditional Courses" class="input-checkbox">Additional Courses<label>
          
 </fieldset>
-<p value="Any comments or suggestions?">Any comments or suggestions? </p>
+
 <fieldset class="input-group">
+  <p value="Any comments or suggestions?">Any comments or suggestions? </p>
   <textarea class="comments" placeholder="Enter your comment here..." ></textarea>
 </fieldset>
 <fieldset>
