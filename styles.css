@@ -11,6 +11,7 @@ headder,p,h1,h3,label{text-decoration: solid;}
 }
 .user-details{
     display:block
+        width:90%;
 }
 
 .checkbox{display:block
