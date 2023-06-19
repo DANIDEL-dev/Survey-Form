@@ -7,31 +7,36 @@
     <link href="./styles.css" rel="stylesheet">
     </head>
     <body class="container0">
-      <div class="container">
+<div class="container">
       <header>
     <h1 id="title">  Survey Form</h1>
-    <h3 >Thank you for taking the time to help us improve the platform</h3>
+    <h2>Thank you for taking the time to help us improve the platform</h2>
       </header>
 <form id="survey-form" class="container1" >
-<fieldset class="input-group">
-  <div class="user-details">
-  <label id="name-label" class="user-details" >
-    Name <input  type="text" id="name"  placeholder="Enter your name" required >
-    </label>
+
+<section class="input-group">
+
+  <div class="info">
+  <label for="name-label">Name</label>
+  <input  type="text" id="name-label"  placeholder="Enter your name" required >
   </div>
-  <div class="user-details">
-    <label id="email-label" class="user-details">
-    Email <input type="email" id="email" required placeholder="Enter your Email">
-    </label>
+
+  <div class="info">
+    <label for="email-label">Email</label>
+    <input type="email" id="email-label" required placeholder="Enter your Email">
   </div>
-<div class="user-details">
-    <label id="number-label" class="user-details">
-    Age <input type="number" id="number"  required placeholder="age" min="14" max="30" class="age">
-    </label>
+
+<div class="info">
+    <label for="number-label">D.O.B</label>
+    <input type="date" id="number-label"  required placeholder="age" min="14" max="30" class="age">
   </div>
- <fieldset class="input-group">
-     <p id="description"> Which option best describes your curent role? </p>
-<select id="dropdown" class="input-dropdown">
+</section>
+
+ <section class="input-group">
+
+     <h3 id="question"> Which option best describes your curent role? </h3>
+
+     <select id="dropdown" class="input-dropdown">
 <option> Select current role </option>
 <option id="student">Student </option>
 <option>Full Time Job </option>
@@ -39,18 +44,18 @@
 <option> Prefer not to say </option>
 <option> Other </option>
     </select>
-</fieldset> 
-  <fieldset>
-     <p> Would you recommend Meta to a friend? </p>
-  <label id="Definitely" class="input-radio"> <input type="radio" name="choice"value="Definitely"  > Definitely </label>
-    
-  <label id="Maybe" class="input-radio"> <input type="radio" name="choice" value="Maybe" > Maybe </label>
-    
-  <label id="Not sure" class="input-radio"> <input type="radio" name="choice"   value="Not sure" > Not sure </label>
-    
-</fieldset>
-<fieldset class="input-group">
-  <p> What is your favorite feature of Meta ? </p>
+ </section> 
+
+  <section>
+
+     <h3 id="question"> Would you recommend Meta to a friend? </h3>
+  <label id="Definitely" class="input-radio"> <input type="radio" name="choice"value="Definitely"  > Definitely </label> 
+  <label id="Maybe" class="input-radio"> <input type="radio" name="choice" value="Maybe" > Maybe </label> 
+  <label id="Not sure" class="input-radio"> <input type="radio" name="choice"   value="Not sure" > Not sure </label> 
+  </section>
+
+<section class="input-group">
+  <h3 id="question"> What is your favorite feature of Meta ? </h3>
   <select class="input-dropdown" required>
     <option disable selected value>Select an option</option>
     <option value="Challenges">Challenges</option>
@@ -58,9 +63,10 @@
     <option value="Community">Community</option>
     <option value="Open Source">Open Source</option>
   </select>
-</fieldset>
-<fieldset class="input-group">
-  <p>What would you like to see improved? <span class="clue">(Check all that apply)  </span> </p>
+</section>
+
+<section class="input-group">
+  <h3 id="question">What would you like to see improved? <span class="clue">(Check all that apply)  </span> </h3>
   <label><input type="checkbox"value="Front-end Projects" class="input-checkbox">Front-end Projects</label>
        <label class="checkbox"><input type="checkbox" value="Back-end Projects" class="input-checkbox">Back-end Projects</label>
        <label class="checkbox"><input type="checkbox"value="Data Visualization" class="input-checkbox">Data Visualization</label>
@@ -73,18 +79,23 @@
                          <label class="checkbox"><input type="checkbox" value="Forum" class="input-checkbox">Forums<label>
                             <label class="checkbox"><input type="checkbox" value="Aditional Courses" class="input-checkbox">Additional Courses<label>
          
-</fieldset>
+                           
+                            
+                            </section>
 
-<fieldset class="input-group">
-  <p value="Any comments or suggestions?">Any comments or suggestions? </p>
-  <textarea class="comments" placeholder="Enter your comment here..." ></textarea>
-</fieldset>
-<fieldset>
+<section class="input-group">
+  <h3 id="question" value="Any comments or suggestions?">Any comments or suggestions? </h3>
+  <textarea rows="4" cols="40" class="comments" placeholder="Enter your comment here..." ></textarea>
+</section>
+
+<section>
+<div class="submit-design">
   <input  class="submit-button" type="submit" id="submit"> 
-  </fieldset>
+</div>
+</section>
   </form>
-    <footer>
-    <small>Copyright © 2023. Daniel Oshili | All rights reserved.</small>
-    </footer>
-    </div>
-    </body>
+
+    <footer> <small>Copyright © 2023. Daniel Oshili | All rights reserved.</small> </footer>
+</div>
+ </body>
+    </html>
