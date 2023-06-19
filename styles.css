@@ -5,7 +5,8 @@
 
 .container{
     background-color: #8D8C78;
-     margin:10px;
+     margin:19px;
+     padding:0px 20px;
      border-radius: 20px;
     }
 
@@ -37,6 +38,8 @@ p,h1,h3,label{text-decoration: solid;}
  .comments{
     color:black;
     background-color: #EFEFEF;
+    border-radius: 15px;
+    text-align:center;
  }
 
   .info label, .info input{
@@ -48,11 +51,12 @@ p,h1,h3,label{text-decoration: solid;}
   }
   .info input{
     text-align: left;
-    width: 50%;}
+    width: 80%;}
 .labels{
     font-size: small;}
   
-  label {display: inline;
+  label {display: block;
+    justify-content: center;
   align-items: center;
   font-size: 1.125rem;
   margin-bottom: 0.5rem;}
@@ -80,8 +84,7 @@ p,h1,h3,label{text-decoration: solid;}
 
   .input-dropdown{
     width:100%;
-  
-}
+    }
 
     footer{
         text-align: center;
@@ -93,3 +96,6 @@ p,h1,h3,label{text-decoration: solid;}
 #question{
     padding-top: 30px;
 }
+.comment-section{
+    display: flex;
+    justify-content: center;
