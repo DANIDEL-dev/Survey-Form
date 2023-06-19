@@ -4,7 +4,8 @@ border-radius: 20px;}
 .container1{background-color: #D1D0C8; margin:10px;
 border-radius: 10px;
 padding-top: 2rem;
-padding-bottom: 1rem;}
+padding-bottom: 1rem;
+margin:5rem;}
 header{text-align: center;
 text-decoration: solid;}
 p,h1,h3,label{text-decoration: solid;}
@@ -22,7 +23,7 @@ p,h1,h3,label{text-decoration: solid;}
   }
   .info label{
     text-align: right;
-    width: 10%;
+    width: auto;
   }
   .info input{
     text-align: left;
