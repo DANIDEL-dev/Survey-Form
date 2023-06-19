@@ -9,11 +9,16 @@ headder,p,h1,h3,label{text-decoration: solid;}
 .input-radio{display:block;
 
 }
-.user-details{
-    display:inline-block
-        width:90%;
+.user-details input, .user-details label{
+    display:inline-block}
+.user-details input{
+width:50%;
+text-align:left;
 }
-
+.user-details label{
+    width:10%;
+    min-width:55px;
+}
 .checkbox{display:block
 }
 .comments{
