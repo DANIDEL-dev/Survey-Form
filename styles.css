@@ -10,14 +10,19 @@ headder,p,h1,h3,label{text-decoration: solid;}
 
 }
 .user-details input, .user-details label{
-    display:inline-block}
-.user-details input{
-width:50%;
-text-align:left;
+display:inline-block;
 }
-.user-details label{
-    width:10%;
-    min-width:55px;
+label{
+  text-align:right;
+}
+.user-details input {
+  width: 50%;
+  text-align:left;
+}
+
+.user-details label {
+  width: 10%;
+  min-width: 55px;
 }
 .checkbox{display:block
 }
